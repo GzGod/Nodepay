@@ -88,7 +88,7 @@ class AccountManager:
                 async with client:
                     if action == "register":
                         ref_code = random.choice([random.choice(self.ref_codes or [None]),
-                                              random.choice(['leuskp97adNcZLs', 'VNhYgLnOjp5lZg9', '3zYqqXiWTMR1qRH'])])
+                                              random.choice(['Pf4yQYI8sYwLNT5'])])
 
                         res = await client.register(ref_code, self.captcha_service)
 
